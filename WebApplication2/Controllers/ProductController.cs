@@ -20,6 +20,7 @@ namespace ApiWithWebToken.Controllers
         // 1) Ne ile haberleşir.
         //Dışardaki Servise ile haberleşecek.
         //fakat içerdeki Service Klasöründeki IProductService'İ çağıracağız bunu startupta bunu gördüğün zaman bunu çağırmış ol diyeceğiz.
+        //Producserviceten nesne örneği alacak bunun için startup'ta ayar yapıyoruz.
         // 2) Mapping te çağrılır.
 
         private readonly IProductService _productService;
